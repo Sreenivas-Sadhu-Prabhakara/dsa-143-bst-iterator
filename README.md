@@ -12,6 +12,13 @@ Take the iterative inorder traversal (#104) and store its loop state — the sta
 
 **Complexity:** Next amortized O(1), HasNext O(1), O(h) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
